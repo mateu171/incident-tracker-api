@@ -1,0 +1,11 @@
+@"
+.env
+.env.*
+!.env.example
+*.exe
+*.test
+/vendor/
+/tmp/
+/.vscode/
+.idea/
+"@ | Set-Content .gitignore
